@@ -24,7 +24,7 @@ end
 
 def remove_element_from_start_of_array(array)
   avengers = ["Hulk", "Iron Man", "Thor", "Ant-Man"]
-  avenggers.shift("wow")
+  avengers.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
