@@ -18,13 +18,13 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  avengers = ["Hulk", "Iron Man", "Thor", "Ant-Man", "arrays!"]
-  avengers.pop("arrays!")
+  array = ["I", "am", "really", "learning", "arrays!"]
+  array.pop("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
-  avengers = ["wow", "Hulk", "Iron Man", "Thor", "Ant-Man"]
-  avengers.shift("wow")
+  array = ["I", "am", "really", "learning", "arrays!"]
+  array.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
