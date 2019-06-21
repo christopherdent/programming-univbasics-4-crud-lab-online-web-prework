@@ -7,8 +7,8 @@ def create_an_array
   
 end
 
-def add_element_to_end_of_array("avengers", "Captain America")
-  avengers << "Captain America"
+def add_element_to_end_of_array(avengers, Captain)
+  avengers << "Captain"
 end
 
 def add_element_to_start_of_array(array, element)
