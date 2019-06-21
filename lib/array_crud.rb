@@ -19,12 +19,12 @@ end
 
 def remove_element_from_end_of_array(array)
   array = ["I", "am", "really", "learning", "arrays!"]
-  "arrays!" = array.pop
+  array.pop = arrays!
 end
 
 def remove_element_from_start_of_array(array)
-  array = ["I", "am", "really", "learning", "arrays!"]
-  wow = array.shift
+  array = ["wow", "I", "am", "really", "learning", "arrays!"]
+  array.shift = wow
 end
 
 def retrieve_element_from_index(array, index_number)
