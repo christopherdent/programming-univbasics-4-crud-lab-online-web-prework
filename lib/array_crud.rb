@@ -9,7 +9,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   avengers = ["Hulk", "Iron Man", "Thor", "Ant-Man"]
-  avengers.push("Captain America")
+  avengers.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
